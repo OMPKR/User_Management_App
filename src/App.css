@@ -1,38 +1,71 @@
-.App {
+.App{
+  background-color: #2c3e50;
+  min-height: 100vh;
+  /*
+  background-color: #282c34; 
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin); */
+}
+.Display{
+  color: yellow;
+  margin-left: 50px;
+ /* background-color: rgb(239, 9, 193); */
+}
+.delete{
+  color:red;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.form{
+  color: rgb(20, 228, 124);
+  justify-content: center;
+  text-align: center;  
+  font-weight: 500;
+}
+.inputName{
+  margin-left: 10px;
+   background-color: yellow;
+}
+.inputEmail{
+  margin-left: 15px;  
+  margin-top: 5px; 
+  background-color: yellow;
+ 
+}
+.inputPhone{
+  margin-left: 8px;
+  margin-top: 5px;
+  background-color: yellow;
+}
+.save{
+  margin-top: 10px; 
+
+  color: rgb(69, 9, 235);
+}
+.cancel{
+  margin-left: 10px;
+
+  color: red;
+ 
+}
+.editUser{
+  margin-top: 0%;
+  color: yellow;
+  justify-content: center;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.userMan h1{
+  margin-top: 0%;
+  color: rgb(42, 10, 228);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;  
 }
-
-.App-link {
-  color: #61dafb;
+.DisplayName{
+  margin-left: 18px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.DisplayEmail{
+  margin-left: 27px;
+}
+.DisplayPhone{
+  margin-left: 13px;
 }
